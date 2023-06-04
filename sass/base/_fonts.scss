@@ -23,7 +23,7 @@
 }
 
 h1 {
-  @include TextFont($h1-large-size, 700, $primary-blue, 1.1, 0);
+  @include TextFont($h1-large-size, 700, $primary-black, 1.1, 0);
 }
 
 h2 {
