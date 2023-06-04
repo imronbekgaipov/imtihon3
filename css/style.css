@@ -5,7 +5,6 @@
   font-weight: 500;
   src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2");
 }
-
 @font-face {
   font-display: swap;
   font-family: "Poppins";
@@ -13,23 +12,10 @@
   font-weight: 500;
   src: url("../fonts/poppins-v20-latin-500italic.woff2") format("woff2");
 }
-
 @font-face {
   font-display: swap;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2");
-}
-
-h1 {
-  @include TextFont($h1-large-size, 700, $primary-blue, 1.1, 0);
-}
-
-h2 {
-  @include TextFont($h2-large-size, 700, $primary-black, 1.2, 0);
-}
-
-h3 {
-  @include TextFont($h3-size, 700, $primary-black, 1.5, 0);
 }
