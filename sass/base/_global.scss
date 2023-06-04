@@ -30,6 +30,10 @@ body {
   height: 100%;
 }
 
+main {
+  flex-grow: 1;
+}
+
 button {
   outline: none;
   border: none;
@@ -37,7 +41,7 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1210px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 1.5rem;
 }

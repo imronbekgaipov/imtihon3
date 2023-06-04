@@ -1,4 +1,4 @@
-@mixin TextFont($fs, $fw, $color, $lh, $m) {
+@mixin mainTextFont($fs, $fw, $color, $lh, $m) {
   font-size: $fs;
   font-weight: $fw;
   color: $color;
@@ -11,11 +11,11 @@
   box-sizing: border-box;
 }
 
-// @mixin large-text {
-//     font: {
-//         family: Roboto;
-//         size: 30px;
-//         weight: bold;
-//     }
-//     color: #ffff;
-// }
+@mixin large-text {
+  font: {
+    family: Roboto;
+    size: 30px;
+    weight: bold;
+  }
+  color: #ffff;
+}

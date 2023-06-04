@@ -4,11 +4,243 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shortly</title>
-    <!-- STYLES -->
+    <title>URL Shortening</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1></h1>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="navbar">
+          <a href="#">
+            <img
+              class="site-logo"
+              src="./images/svg/site-logo-navbar.svg"
+              alt="site-logo"
+            />
+          </a>
+          <ul class="navbar__list">
+            <li class="navbar__list__item">
+              <a href="">Features</a>
+            </li>
+            <li class="navbar__list__item">
+              <a href="">Pricing</a>
+            </li>
+            <li class="navbar__list__item">
+              <a href="">Resources</a>
+            </li>
+          </ul>
+          <div class="navbar__links">
+            <a class="navbar__link" href="#">Login</a>
+            <a class="navbar__btn" href="#">
+              <button class="navbar__btn site__btn">Sign Up</button>
+            </a>
+          </div>
+        </nav>
+        <div class="hero">
+          <div class="hero__left">
+            <h1 class="hero__title">More than just shorter links</h1>
+            <p class="hero__text">
+              Build your brand’s recognition and get detailed insights on how
+              your links are performing.
+            </p>
+            <a href="#">
+              <button class="hero__btn site__btn">Get Started</button>
+            </a>
+          </div>
+          <div class="hero__right">
+            <img src="./images/png/working-comp.png" alt="working computer" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main__container">
+        <form target="_blank" class="main__form">
+          <input
+            class="main__form__input"
+            type="text"
+            placeholder="Shorten a link here..."
+          />
+          <button class="main__form__btn site__btn">Shorten It!</button>
+        </form>
+        <div
+          class="form__values"
+          style="
+            background-color: #ffffff;
+            padding: 18px 20px;
+            border-radius: 10px;
+          "
+        >
+          <p class="form__values__text">https://www.frontendmentor.io</p>
+          <a class="form__values__link" href="#" style="color: #2bd0d0"
+            >https://rel.ink/k4lKyk</a
+          >
+          <button
+            class="form__values__btn site__btn"
+            style="padding: 10px 24px; border-radius: 7px"
+          >
+            Copy
+          </button>
+        </div>
+        <div
+          class="form__values"
+          style="
+            background-color: #ffffff;
+            padding: 18px 20px;
+            border-radius: 10px;
+          "
+        >
+          <p class="form__values__text">https://www.frontendmentor.io</p>
+          <a class="form__values__link" href="#" style="color: #2bd0d0"
+            >https://rel.ink/k4lKyk</a
+          >
+          <button
+            class="form__values__btn site__btn"
+            style="padding: 10px 24px; border-radius: 7px"
+          >
+            Copy
+          </button>
+        </div>
+        <div
+          class="form__values"
+          style="
+            background-color: #ffffff;
+            padding: 18px 20px;
+            border-radius: 10px;
+          "
+        >
+          <p class="form__values__text">https://www.frontendmentor.io</p>
+          <a class="form__values__link" href="#" style="color: #2bd0d0"
+            >https://rel.ink/k4lKyk</a
+          >
+          <button
+            class="form__values__btn site__btn"
+            style="padding: 10px 24px; border-radius: 7px"
+          >
+            Copy
+          </button>
+        </div>
+        <div class="static">
+          <h2 class="static__title">Advanced Statistics</h2>
+          <p class="static__text">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+          <div class="background__line"></div>
+          <div class="static__cards">
+            <div class="card card-1">
+              <img
+                class="card__img"
+                src="./images/svg/brand.svg"
+                alt="brand degree"
+              />
+              <h3 class="card__title">Brand Recognition</h3>
+              <p class="card__text">
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+            <div class="card card-2">
+              <img
+                class="card__img"
+                src="./images/svg/record.svg"
+                alt="brand record"
+              />
+              <h3 class="card__title">Detailed Records</h3>
+              <p class="card__text">
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <div class="card card-3">
+              <img
+                class="card__img"
+                src="./images/svg/qalamlar.svg"
+                alt="qalamlar"
+              />
+              <h3 class="card__title">Fully Customizable</h3>
+              <p class="card__text">
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__servis">
+        <div class="container servis__container">
+          <h2 class="servis__title">Boost your links today</h2>
+          <button class="servis__btn site__btn">Get Started</button>
+        </div>
+      </div>
+      <div class="footer__end">
+        <div class="container end__container">
+          <a class="footer__logo" href="#">
+            <img src="./images/svg/site-logo-end.svg" alt="" />
+          </a>
+          <div class="footer__linklar">
+            <div class="footer__links">
+              <a class="footer__link link-1" href="#"
+                ><strong>Features</strong></a
+              >
+              <a class="footer__link link-2" href="#">Link Shortening</a>
+              <a class="footer__link link-3" href="#">Branded Links</a>
+              <a class="footer__link link-4" href="#">Analytics</a>
+            </div>
+            <div class="footer__links">
+              <a class="footer__link link-1" href="#"
+                ><strong>Resources</strong></a
+              >
+              <a class="footer__link link-2" href="#">Blog</a>
+              <a class="footer__link link-3" href="#">Developers</a>
+              <a class="footer__link link-4" href="#">Support</a>
+            </div>
+            <div class="footer__links">
+              <a class="footer__link link-1" href="#"
+                ><strong>Company</strong></a
+              >
+              <a class="footer__link link-2" href="#">About</a>
+              <a class="footer__link link-3" href="#">Our Team</a>
+              <a class="footer__link link-4" href="#">Careers</a>
+              <a class="footer__link link-4" href="#">Contact</a>
+            </div>
+            <div class="footer__icons">
+              <img
+                class="footer__icon"
+                src="./images/svg/facebook-icon.svg"
+                alt="facebbok-icon"
+                width="24"
+                height="24"
+              />
+              <img
+                class="footer__icon"
+                src="./images/svg/twitter-icon.svg"
+                alt="twitter-icon"
+                width="24"
+                height="24"
+              />
+              <img
+                class="footer__icon"
+                src="./images/svg/p-icon.svg"
+                alt="d-icon"
+                width="24"
+                height="24"
+              />
+              <img
+                class="footer__icon"
+                src="./images/svg/instagram-icon.svg"
+                alt="instagram-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

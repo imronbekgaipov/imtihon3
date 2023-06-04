@@ -1,0 +1,8 @@
+.site__btn {
+  color: $white-color;
+  background-color: $btn-bg-color;
+  cursor: pointer;
+  &:hover {
+    background-color: $btn-hover-bg-color;
+  }
+}
